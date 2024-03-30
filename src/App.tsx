@@ -15,6 +15,7 @@ function App() {
     sendWithrawalRequest,
   } = useMainContract();
   const { connected } = useTonConnect();
+  // just want to trigger the workflow
   return (
     <div>
       <div>
