@@ -20,8 +20,8 @@ function App() {
       <div>
         <TonConnectButton />
       </div>
-      {/* <p>{recent_sender?.toString()}</p>
-      <p>{owner_address?.toString()}</p> */}
+      <p>{recent_sender?.toString()}</p>
+      <p>{owner_address?.toString()}</p>
       <div>
         <div className="Card">
           <b>Our contract Address</b>
